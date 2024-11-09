@@ -64,15 +64,15 @@ GGL, GLG, LGG
 
 LIG, LGI, GIL, IGL, ILG, GLI
 
-Then, using the image and details provided by slide 34, we can calculate probabilities for each of these groups of permutations(i.e 1/2 for good pivot, 1/4 for less than or greater than).
+Then, using the image and details provided by slide 34, we can calculate probabilities for each of these groups of permutations(i.e 1/2 for good pivot, 1/4 for less than or greater than). We can also remember that the middle-of-three strategy needs to choose an option with the ideal as the middle element, whcih leaves us these options
 
 LLL = $(\frac{1}{4})^3 * 1 = \frac{1}{64}$
 
-III = $(\frac{1}{2})^3 * 1 = \frac{1}{8}$
+III = $(\frac{1}{2})^3 * 1 = \frac{8}{64}$
 
 GGG = $(\frac{1}{4})^3 * 1 = \frac{1}{64}$
 
-LLI, LIL, ILL
+LLI, LIL, ILL = $(\frac{1}{4})^3 * \frac{1}{2} * 3 = \frac{6}{64}$
 
 LLG, LGL, GLL
 
