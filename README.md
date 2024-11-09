@@ -42,13 +42,24 @@ ILL, ILI, ILG, IIL, III, IIG, IGL, IGI, IGG
 
 GGL, GGI, GGG, GLL, GLI, GLG, GIL, GII, GIG
 
+Now we can also sort them further into groups where they are unique permutations, or in other words, group the permutations together that have the same amounts of LIG but where the only difference is their order such as IGG,GGI, and GIG.
 
+LLL
 
+III
 
+GGG
 
+LLI, LIL, ILL
 
+IIG, IGI, GII
 
+IIL, ILI, LII
 
+LLG, LGL, GLL
 
+GGI, GIG, IGG
 
+GGL, GLG, LGG
 
+LIG, LGI, GIL, IGL, ILG, GLI
