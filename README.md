@@ -66,11 +66,11 @@ LIG, LGI, GIL, IGL, ILG, GLI
 
 Then, using the image and details provided by slide 34, we can calculate probabilities for each of these groups of permutations(i.e 1/2 for good pivot, 1/4 for less than or greater than).
 
-LLL = $(\frac{1}{4})^3 * 1$
+LLL = $(\frac{1}{4})^3 * 1 = \frac{1}{64}$
 
-III
+III = $(\frac{1}{2})^3 * 1 = \frac{1}{8}$
 
-GGG
+GGG = $(\frac{1}{4})^3 * 1 = \frac{1}{64}$
 
 LLI, LIL, ILL
 
