@@ -34,7 +34,13 @@ I did not complete this excerise last semester as I am weak in probabilities, I 
 ## Answer
 Based on slide 34, we observe that the probability of selecting a bad pivot is the same as selecting a good pivot at 50%. So our goal is to see how middle-of-three selection compares, and it will be good to remember that the ideal pivot range is n/2 which is also based on the statement "Any good pivot creates two partitions of size at most 3n/4".
 
-With the middle-of-three, we have the first, middle, and last elements chosen which could be worse than the ideal pivot range, in the ideal pivot range, or better than the ideal pivot range and these will be denoted as W,I,B respectively. Looking at all equally possible combinations of these pivots, we have $3^3$ possible permutations.
+With the middle-of-three, we have the first, middle, and last elements chosen which could be worse than the ideal pivot range, in the ideal pivot range, or better than the ideal pivot range and these will be denoted as W,I,B respectively. Looking at all equally possible combinations of these pivots, we have $3^3$ possible permutations listed below separated out for clarity.
+
+WWW, WWI, WWB, WIW, WII, WIB, WBW, WBI, WBB
+
+IWW, IWI, IWB, IIW, III, IIB, IBW, IBI, IBB
+
+BBW, BBI, BBB, BWW, BWI, BWB, BIW, BII, BIB
 
 
 
