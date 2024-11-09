@@ -74,15 +74,15 @@ GGG = $(\frac{1}{4})^3 * 1 = \frac{1}{64}$
 
 LLI, LIL, ILL = $(\frac{1}{4})^3 * \frac{1}{2} * 3 = \frac{6}{64}$
 
-LLG, LGL, GLL
+LLG, LGL, GLL = $(\frac{1}{4})^3 * 3 = \frac{3}{64}$
 
-IIG, IGI, GII
+IIG, IGI, GII = $(\frac{1}{2})^2 * \frac{1}{4} * 3 = \frac{12}{64}$
 
-IIL, ILI, LII
+IIL, ILI, LII = $(\frac{1}{2})^2 * \frac{1}{4} * 3 = \frac{12}{64}$
 
-GGI, GIG, IGG
+GGI, GIG, IGG = $(\frac{1}{4})^2 * \frac{1}{2} * 3 = \frac{6}{64}$
 
-GGL, GLG, LGG
+GGL, GLG, LGG = $(\frac{1}{4})^3 * 3 = \frac{3}{64}$
 
-LIG, LGI, GIL, IGL, ILG, GLI
+LIG, LGI, GIL, IGL, ILG, GLI = $(\frac{1}{4})^2 * \frac{1}{2} * 6 = \frac{12}{64}$
 
