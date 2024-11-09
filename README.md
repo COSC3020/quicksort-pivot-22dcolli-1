@@ -29,7 +29,7 @@ otherwise. I am aware that plagiarism carries severe penalties and that if plagi
 suspected, charges may be filed against me without prior notice.”
 
 ## Note
-I did not complete this excerise last semester as I am weak in probabilities, I consulted Ishita Patel to double check my math.
+I did not complete this excerise last semester as I am weak in probabilities, I consulted Ishita Patel to double check my math and talked with Lily Brongo about possible solutions to the problem.
 
 ## Answer
 Based on slide 34, we observe that the probability of selecting a bad pivot is the same as selecting a good pivot at 50%. So our goal is to see how middle-of-three selection compares, and it will be good to remember that the ideal pivot range is n/2 which is also based on the statement "Any good pivot creates two partitions of size at most 3n/4".
@@ -66,7 +66,7 @@ LIG, LGI, GIL, IGL, ILG, GLI
 
 Then, using the image and details provided by slide 34, we can calculate probabilities for each of these groups of permutations(i.e 1/2 for good pivot, 1/4 for less than or greater than)
 
-LLL = $({1}/{4})$
+LLL = $(\frac{1}{4})$
 
 III
 
