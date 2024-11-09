@@ -63,3 +63,26 @@ GGI, GIG, IGG
 GGL, GLG, LGG
 
 LIG, LGI, GIL, IGL, ILG, GLI
+
+Then, using the image and details provided by slide 34, we can calculate probabilities for each of these groups of permutations(i.e 1/2 for good pivot, 1/4 for less than or greater than)
+
+LLL = $({1}/{4})$
+
+III
+
+GGG
+
+LLI, LIL, ILL
+
+LLG, LGL, GLL
+
+IIG, IGI, GII
+
+IIL, ILI, LII
+
+GGI, GIG, IGG
+
+GGL, GLG, LGG
+
+LIG, LGI, GIL, IGL, ILG, GLI
+
