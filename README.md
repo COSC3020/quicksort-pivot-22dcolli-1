@@ -19,3 +19,8 @@ quantitatively reason with them.
 Add your answer to this markdown file. [This
 page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 might help with the notation for mathematical expressions.
+
+## Note
+I did not complete this excerise last semester as I am weak in probabilities, I consulted Ishita Patel to double check my math.
+
+## Answer
