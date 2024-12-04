@@ -90,10 +90,10 @@ We can also remember that the middle-of-three strategy needs to choose an option
 
 (III),(IIG),(IIL),(LIG)
 
-And from the above calculations we then have:
+And when we substitue the above calculations in for the representations we then have:
 
 $(\frac{8}{64}) + (\frac{12}{64}) + (\frac{12}{64}) + (\frac{12}{64}) = \frac{44}{64} $
 
-Converted into a percentage, $\frac{44}{64}$ is 68.75%, which we can see is better than the 50% we had innitially
+Converted into a percentage, $\frac{44}{64}$ is 68.75%, which we can see is a better  chance of having a good pivot than the 50% we had innitially
 
 
