@@ -34,7 +34,7 @@ I did not complete this excerise last semester as I am weak in probabilities, I 
 ## Answer
 Based on slide 34, we observe that the probability of selecting a bad pivot is the same as selecting a good pivot at 50%. So our goal is to see how middle-of-three selection compares, and it will be good to remember that the ideal pivot range is n/2 which is also based on the statement "Any good pivot creates two partitions of size at most 3n/4".
 
-With the middle-of-three, we have the first, middle, and last elements chosen which could be less than the ideal pivot range, in the ideal pivot range, or greater than the ideal pivot range and these will be denoted as L,I,G respectively. Looking at all equally possible combinations of these pivots, we have $3^3$ possible permutations listed below separated out for clarity.
+With the middle-of-three, we have the first, middle, and last elements chosen which could be less than the ideal pivot range, in the ideal pivot range, or greater than the ideal pivot range and these will be denoted as L,I,G respectively. Looking at all equally possible combinations of these pivots, we have $ 3^3 $ possible permutations listed below separated out for clarity.
 
 LLL, LLI, LLG, LIL, LII, LIG, LGL, LGI, LGG
 
@@ -64,7 +64,7 @@ GGL, GLG, LGG
 
 LIG, LGI, GIL, IGL, ILG, GLI
 
-Then, using the image and details provided by slide 34, we can calculate probabilities for each of these groups of permutations(i.e 1/2 for good pivot, 1/4 for less than or greater than). We can also remember that the middle-of-three strategy needs to choose an option with the ideal as the middle element, whcih leaves us these options
+Then, using the image and details provided by slide 34, we can calculate probabilities for each of these groups of permutations(i.e 1/2 for good pivot, 1/4 for less than or greater than).
 
 LLL = $(\frac{1}{4})^3 * 1 = \frac{1}{64}$
 
@@ -85,4 +85,15 @@ GGI, GIG, IGG = $(\frac{1}{4})^2 * \frac{1}{2} * 3 = \frac{6}{64}$
 GGL, GLG, LGG = $(\frac{1}{4})^3 * 3 = \frac{3}{64}$
 
 LIG, LGI, GIL, IGL, ILG, GLI = $(\frac{1}{4})^2 * \frac{1}{2} * 6 = \frac{12}{64}$
+
+We can also remember that the middle-of-three strategy needs to choose an option with the ideal as the middle element, which leaves us these options represented below:
+
+(III),(IIG),(IIL),(LIG)
+
+And from the above calculations we then have:
+
+$(\frac{8}{64}) + (\frac{12}{64}) + (\frac{12}{64}) + (\frac{12}{64}) = \frac{44}{64} $
+
+Converted into a percentage, $\frac{44}{64}$ is $68.75%$, which we can see is better than the $50%$ we had innitially
+
 
